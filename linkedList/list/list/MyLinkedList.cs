@@ -1,4 +1,4 @@
-﻿﻿using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace list
 {
-    public class LinkedList<T>
+    public class MyLinkedList<T> : IEnumerable<T>
     {
         public class Node
         {
@@ -24,9 +24,20 @@ namespace list
         Node head;
         public int size;
 
-        public LinkedList()
+        public MyLinkedList()
         {
             size = 0;
+        }
+        /// <summary>
+        /// Create a new list with values from a set.
+        /// </summary>
+        /// <param name="values"></param>
+        public MyLinkedList(IEnumerable<T> values)
+        {
+            foreach (T value in values)
+            {
+                add(value);
+            }
         }
 
         public void addFirst(T value)
@@ -152,7 +163,7 @@ namespace list
         }
 
 
-        public T get(int index)
+        public T getByIndex(int index)
         {
             return getNode(index).value;
         }
@@ -182,12 +193,55 @@ namespace list
 
             return output;
         }
+
         public IEnumerator<T> GetEnumerator()
+        {
+            for (int i = 0; i < size; i++)
+            {
+                yield return getByIndex(i);
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
         {
             throw new NotImplementedException();
         }
 
-
-
     }
+
+    class LinkedListIEnumerator<T> : IEnumerator<T>
+    {
+        private MyLinkedList<T> list;
+        private int pos;
+
+        public LinkedListIEnumerator(MyLinkedList<T> list)
+        {
+            this.list = list;
+            this.pos = -1;
+        }
+
+        public T Current
+        {
+            get { return list.getByIndex(pos); }
+        }
+
+        object IEnumerator.Current
+        {
+            get { return Current; }
+        }
+
+        public void Dispose() { throw new NotImplementedException(); }
+
+        public bool MoveNext()
+        {
+            if (pos++ != list.size - 1)
+            {
+                return true;
+            }
+            else { return false; }
+        }
+
+        public void Reset() { this.pos = -1; }
+    }
+
 }

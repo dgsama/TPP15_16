@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace extensions
+namespace list
 {
-    class Extensions
+    public static class Extensions
     {
         //MAPS
         public static IEnumerable<TResult> Map<TElement, TResult>(this IEnumerable<TElement> collection,
@@ -27,7 +27,7 @@ namespace extensions
             yield break;
         }
 
-        static IEnumerable<TReturn> MyMap<TParam, TReturn>(Func<TParam, TReturn> f,this IEnumerable<TParam> param)
+        static IEnumerable<TReturn> MyMap<TParam, TReturn>(this IEnumerable<TParam> param, Func<TParam, TReturn> f)
         {
             List<TReturn> list = new List<TReturn>();
             foreach (var e in param)
@@ -39,14 +39,15 @@ namespace extensions
 
 
         //FOR EACH
-        public static void ForEach<TElement>(this IEnumerable<TElement> c, Action<TElement> action){
+        public static void ForEach<TElement>(this IEnumerable<TElement> c, Action<TElement> action)
+        {
             foreach (TElement x in c)
                 action(x);
         }
 
 
         //FILTER
-        public static IEnumerable<T> Filter<T>(Predicate<T> f, this IEnumerable<T> a)
+        public static IEnumerable<T> Filter<T>(this IEnumerable<T> a, Predicate<T> f)
         {
             List<T> ret = new List<T>();
             foreach (T t in a)
@@ -60,7 +61,7 @@ namespace extensions
         }
 
         //FIND
-        public static T Find<T>(Predicate<T> f, this IEnumerable<T> a)
+        public static T Find<T>(this IEnumerable<T> a, Predicate<T> f)
         {
             foreach (T t in a)
             {
@@ -73,7 +74,7 @@ namespace extensions
         }
 
         //FIND LAST
-        public static T FindLast<T>(Predicate<T> f, this IEnumerable<T> a)
+        public static T FindLast<T>(this IEnumerable<T> a, Predicate<T> f)
         {
             IEnumerable<T> b = a;
             b.Reverse();
@@ -89,7 +90,7 @@ namespace extensions
         }
 
         //SHOW
-         public static void Show<T>(this IEnumerable<T> collection)
+        public static void Show<T>(this IEnumerable<T> collection)
         {
             foreach (T elem in collection)
             {
@@ -99,8 +100,8 @@ namespace extensions
         }
 
         //REDUCE 
-           static TResult Reduce<TParam, TResult>(Func<TResult, TParam, TResult> function, this 
-    IEnumerable<TParam> c, TResult seed = default(TResult))
+        static TResult Reduce<TParam, TResult>(this
+ IEnumerable<TParam> c, Func<TResult, TParam, TResult> function, TResult seed = default(TResult))
         {
             TResult value = seed;
 
@@ -111,11 +112,14 @@ namespace extensions
             return value;
         }
 
-    }
-
-
-
-
+        //INVERT
+        public static IEnumerable<T> Invert<T>(this IEnumerable<T> items)
+        {
+            for (int i = items.Count() - 1; i >= 0; i--)
+            {
+                yield return items.ElementAt(i);
+            }
+        }
 
 
     }

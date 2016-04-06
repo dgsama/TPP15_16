@@ -1,1 +1,7 @@
 E:\TPP\Lab\linkedList\list\list\bin\Debug\list.exe.config
+D:\David\Documents\WorkSpaces\Curso15-16 GIT\TPP15_16\linkedList\list\list\bin\Debug\list.exe.config
+D:\David\Documents\WorkSpaces\Curso15-16 GIT\TPP15_16\linkedList\list\list\obj\Debug\list.csprojResolveAssemblyReference.cache
+D:\David\Documents\WorkSpaces\Curso15-16 GIT\TPP15_16\linkedList\list\list\bin\Debug\list.exe
+D:\David\Documents\WorkSpaces\Curso15-16 GIT\TPP15_16\linkedList\list\list\bin\Debug\list.pdb
+D:\David\Documents\WorkSpaces\Curso15-16 GIT\TPP15_16\linkedList\list\list\obj\Debug\list.exe
+D:\David\Documents\WorkSpaces\Curso15-16 GIT\TPP15_16\linkedList\list\list\obj\Debug\list.pdb
