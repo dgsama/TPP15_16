@@ -1,0 +1,4 @@
+E:\TPP\Lab\Lab6\closures\bin\Debug\closures.exe
+E:\TPP\Lab\Lab6\closures\bin\Debug\closures.pdb
+E:\TPP\Lab\Lab6\closures\obj\x86\Debug\closures.exe
+E:\TPP\Lab\Lab6\closures\obj\x86\Debug\closures.pdb

@@ -1,0 +1,13 @@
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\linq\bin\Debug\linq.exe
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\linq\bin\Debug\linq.pdb
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\linq\obj\x86\Debug\linq.exe
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\linq\obj\x86\Debug\linq.pdb
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\linq\obj\x86\Debug\linq.csprojResolveAssemblyReference.cache
+D:\TPP\Lab\Lab7\lab07\linq\obj\x86\Debug\linq.exe
+D:\TPP\Lab\Lab7\lab07\linq\obj\x86\Debug\linq.pdb
+D:\TPP\Lab\Lab7\lab07\linq\bin\Debug\linq.exe
+D:\TPP\Lab\Lab7\lab07\linq\bin\Debug\linq.pdb
+E:\TPP\Lab\Lab7\lab07\linq\obj\x86\Debug\linq.exe
+E:\TPP\Lab\Lab7\lab07\linq\obj\x86\Debug\linq.pdb
+E:\TPP\Lab\Lab7\lab07\linq\bin\Debug\linq.exe
+E:\TPP\Lab\Lab7\lab07\linq\bin\Debug\linq.pdb

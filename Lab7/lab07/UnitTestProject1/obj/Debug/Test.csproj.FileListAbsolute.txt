@@ -1,0 +1,21 @@
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\UnitTestProject1\obj\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\UnitTestProject1\bin\Debug\linq.exe
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\UnitTestProject1\bin\Debug\linq.pdb
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+C:\Users\UO237464\Desktop\Lab07 - Functional03\lab07\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+D:\TPP\Lab\Lab7\lab07\UnitTestProject1\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\TPP\Lab\Lab7\lab07\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\TPP\Lab\Lab7\lab07\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\TPP\Lab\Lab7\lab07\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\TPP\Lab\Lab7\lab07\UnitTestProject1\bin\Debug\linq.exe
+D:\TPP\Lab\Lab7\lab07\UnitTestProject1\bin\Debug\linq.pdb
+D:\TPP\Lab\Lab7\lab07\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+E:\TPP\Lab\Lab7\lab07\UnitTestProject1\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\TPP\Lab\Lab7\lab07\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+E:\TPP\Lab\Lab7\lab07\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+E:\TPP\Lab\Lab7\lab07\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+E:\TPP\Lab\Lab7\lab07\UnitTestProject1\bin\Debug\linq.exe
+E:\TPP\Lab\Lab7\lab07\UnitTestProject1\bin\Debug\linq.pdb
+E:\TPP\Lab\Lab7\lab07\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

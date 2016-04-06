@@ -1,0 +1,18 @@
+c:\users\davox\documents\visual studio 2015\Projects\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.exe.config
+c:\users\davox\documents\visual studio 2015\Projects\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.csprojResolveAssemblyReference.cache
+c:\users\davox\documents\visual studio 2015\Projects\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.exe
+c:\users\davox\documents\visual studio 2015\Projects\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.pdb
+c:\users\davox\documents\visual studio 2015\Projects\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.exe
+c:\users\davox\documents\visual studio 2015\Projects\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.pdb
+C:\Users\davox\Desktop\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.exe.config
+C:\Users\davox\Desktop\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.exe
+C:\Users\davox\Desktop\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.pdb
+C:\Users\davox\Desktop\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.exe
+C:\Users\davox\Desktop\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.pdb
+C:\Users\davox\Desktop\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.csprojResolveAssemblyReference.cache
+C:\Users\UO237464\Desktop\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.exe.config
+C:\Users\UO237464\Desktop\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.exe
+C:\Users\UO237464\Desktop\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.pdb
+C:\Users\UO237464\Desktop\Lab2HomeWork\Lab2HomeWork\obj\Debug\Lab2HomeWork.csprojResolveAssemblyReference.cache
+C:\Users\UO237464\Desktop\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.exe
+C:\Users\UO237464\Desktop\Lab2HomeWork\Lab2HomeWork\bin\Debug\Lab2HomeWork.pdb

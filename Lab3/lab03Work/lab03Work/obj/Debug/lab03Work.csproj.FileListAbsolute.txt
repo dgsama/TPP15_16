@@ -1,0 +1,12 @@
+C:\Users\davox\Desktop\lab03Work\lab03Work\bin\Debug\lab03Work.exe.config
+C:\Users\davox\Desktop\lab03Work\lab03Work\bin\Debug\lab03Work.exe
+C:\Users\davox\Desktop\lab03Work\lab03Work\bin\Debug\lab03Work.pdb
+C:\Users\davox\Desktop\lab03Work\lab03Work\obj\Debug\lab03Work.csprojResolveAssemblyReference.cache
+C:\Users\davox\Desktop\lab03Work\lab03Work\obj\Debug\lab03Work.exe
+C:\Users\davox\Desktop\lab03Work\lab03Work\obj\Debug\lab03Work.pdb
+E:\TPP\Lab\Lab3\lab03Work\lab03Work\bin\Debug\lab03Work.exe.config
+E:\TPP\Lab\Lab3\lab03Work\lab03Work\obj\Debug\lab03Work.exe
+E:\TPP\Lab\Lab3\lab03Work\lab03Work\obj\Debug\lab03Work.pdb
+E:\TPP\Lab\Lab3\lab03Work\lab03Work\bin\Debug\lab03Work.exe
+E:\TPP\Lab\Lab3\lab03Work\lab03Work\bin\Debug\lab03Work.pdb
+E:\TPP\Lab\Lab3\lab03Work\lab03Work\obj\Debug\lab03Work.csprojResolveAssemblyReference.cache

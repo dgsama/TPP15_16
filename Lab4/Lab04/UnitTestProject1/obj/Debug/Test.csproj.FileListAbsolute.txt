@@ -1,0 +1,15 @@
+C:\Users\UO237464\Desktop\Lab04\UnitTestProject1\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Temp\Lab04\UnitTestProject1\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Temp\Lab04\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+D:\Temp\Lab04\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+D:\Temp\Lab04\UnitTestProject1\bin\Debug\Lab04.exe
+D:\Temp\Lab04\UnitTestProject1\bin\Debug\Lab04.pdb
+D:\Temp\Lab04\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+D:\Temp\Lab04\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
+E:\TPP\Lab\Lab4\Lab04\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+E:\TPP\Lab\Lab4\Lab04\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+E:\TPP\Lab\Lab4\Lab04\UnitTestProject1\bin\Debug\Lab04.exe
+E:\TPP\Lab\Lab4\Lab04\UnitTestProject1\bin\Debug\Lab04.pdb
+E:\TPP\Lab\Lab4\Lab04\UnitTestProject1\obj\Debug\Test.csprojResolveAssemblyReference.cache
+E:\TPP\Lab\Lab4\Lab04\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+E:\TPP\Lab\Lab4\Lab04\UnitTestProject1\obj\Debug\UnitTestProject1.pdb

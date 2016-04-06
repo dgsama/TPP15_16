@@ -1,0 +1,16 @@
+C:\Users\davox\Desktop\lab03Work\Tests\bin\Debug\Tests.dll
+C:\Users\davox\Desktop\lab03Work\Tests\bin\Debug\Tests.pdb
+C:\Users\davox\Desktop\lab03Work\Tests\bin\Debug\lab03Work.exe
+C:\Users\davox\Desktop\lab03Work\Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\davox\Desktop\lab03Work\Tests\bin\Debug\lab03Work.pdb
+C:\Users\davox\Desktop\lab03Work\Tests\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\davox\Desktop\lab03Work\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\davox\Desktop\lab03Work\Tests\obj\Debug\Tests.dll
+C:\Users\davox\Desktop\lab03Work\Tests\obj\Debug\Tests.pdb
+E:\TPP\Lab\Lab3\lab03Work\Tests\bin\Debug\Tests.dll
+E:\TPP\Lab\Lab3\lab03Work\Tests\bin\Debug\Tests.pdb
+E:\TPP\Lab\Lab3\lab03Work\Tests\bin\Debug\lab03Work.exe
+E:\TPP\Lab\Lab3\lab03Work\Tests\bin\Debug\lab03Work.pdb
+E:\TPP\Lab\Lab3\lab03Work\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+E:\TPP\Lab\Lab3\lab03Work\Tests\obj\Debug\Tests.dll
+E:\TPP\Lab\Lab3\lab03Work\Tests\obj\Debug\Tests.pdb

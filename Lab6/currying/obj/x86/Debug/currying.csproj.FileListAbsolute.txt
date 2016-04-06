@@ -1,0 +1,4 @@
+E:\TPP\Lab\Lab6\currying\bin\Debug\currying.exe
+E:\TPP\Lab\Lab6\currying\bin\Debug\currying.pdb
+E:\TPP\Lab\Lab6\currying\obj\x86\Debug\currying.exe
+E:\TPP\Lab\Lab6\currying\obj\x86\Debug\currying.pdb

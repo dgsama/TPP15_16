@@ -1,0 +1,4 @@
+E:\TPP\Lab\Lab6\generators\bin\Debug\generators.exe
+E:\TPP\Lab\Lab6\generators\bin\Debug\generators.pdb
+E:\TPP\Lab\Lab6\generators\obj\x86\Debug\generators.exe
+E:\TPP\Lab\Lab6\generators\obj\x86\Debug\generators.pdb

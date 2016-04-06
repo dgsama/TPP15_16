@@ -1,0 +1,4 @@
+public void invariant(){
+	DEbug.Assert(IsEmpty? list.numberOfElements == 0 : list.NumberOfElements >0);
+}
+

@@ -1,0 +1,6 @@
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\Delegates\bin\Debug\Delegates.exe.config
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\Delegates\bin\Debug\Delegates.exe
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\Delegates\bin\Debug\Delegates.pdb
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\Delegates\obj\Debug\Delegates.csprojResolveAssemblyReference.cache
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\Delegates\obj\Debug\Delegates.exe
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\Delegates\obj\Debug\Delegates.pdb

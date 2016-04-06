@@ -1,0 +1,27 @@
+C:\Users\UO237464\Desktop\Lab 1\Lab01\Main\bin\Debug\Main.exe.config
+C:\Users\UO237464\Desktop\Lab 1\Lab01\Main\bin\Debug\Main.exe
+C:\Users\UO237464\Desktop\Lab 1\Lab01\Main\bin\Debug\Main.pdb
+C:\Users\UO237464\Desktop\Lab 1\Lab01\Main\bin\Debug\Lab01.exe
+C:\Users\UO237464\Desktop\Lab 1\Lab01\Main\bin\Debug\Lab01.pdb
+C:\Users\UO237464\Desktop\Lab 1\Lab01\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\UO237464\Desktop\Lab 1\Lab01\Main\obj\Debug\Main.exe
+C:\Users\UO237464\Desktop\Lab 1\Lab01\Main\obj\Debug\Main.pdb
+E:\TPP\Lab\Lab 1\Lab 1\Lab01\Main\bin\Debug\Main.exe.config
+E:\TPP\Lab\Lab 1\Lab 1\Lab01\Main\obj\Debug\Main.exe
+E:\TPP\Lab\Lab 1\Lab 1\Lab01\Main\obj\Debug\Main.pdb
+E:\TPP\Lab\Lab 1\Lab 1\Lab01\Main\bin\Debug\Main.exe
+E:\TPP\Lab\Lab 1\Lab 1\Lab01\Main\bin\Debug\Main.pdb
+E:\TPP\Lab\Lab 1\Lab 1\Lab01\Main\bin\Debug\Lab01.exe
+E:\TPP\Lab\Lab 1\Lab 1\Lab01\Main\bin\Debug\Lab01.pdb
+E:\TPP\Lab\Lab 1\Lab 1\Lab01\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\davox\Desktop\Lab01\Main\bin\Debug\Main.exe.config
+C:\Users\davox\Desktop\Lab01\Main\obj\Debug\Main.exe
+C:\Users\davox\Desktop\Lab01\Main\obj\Debug\Main.pdb
+C:\Users\davox\Desktop\Lab01\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\davox\Desktop\Lab01\Main\bin\Debug\Main.exe
+C:\Users\davox\Desktop\Lab01\Main\bin\Debug\Main.pdb
+C:\Users\davox\Desktop\Lab01\Main\bin\Debug\Lab01.exe
+C:\Users\davox\Desktop\Lab01\Main\bin\Debug\Lab01.pdb
+C:\Users\UO237464\Desktop\Lab\Lab 1\Lab01\Main\bin\Debug\Main.exe.config
+C:\Users\UO237464\Desktop\Lab\Lab 1\Lab01\Main\obj\Debug\Main.exe
+C:\Users\UO237464\Desktop\Lab\Lab 1\Lab01\Main\obj\Debug\Main.pdb

@@ -1,0 +1,15 @@
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\solution\model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\solution\model\bin\Debug\model.dll
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\solution\model\bin\Debug\model.pdb
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\solution\model\obj\Debug\model.dll
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\solution\model\obj\Debug\model.pdb
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\students\model\bin\Debug\model.dll
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\students\model\bin\Debug\model.pdb
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\students\model\obj\Debug\model.dll
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\students\model\obj\Debug\model.pdb
+C:\Users\ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\functional\lab08\students\model\obj\Debug\model.csprojResolveAssemblyReference.cache
+E:\TPP\Lab\Lab8\model\bin\Debug\model.dll
+E:\TPP\Lab\Lab8\model\bin\Debug\model.pdb
+E:\TPP\Lab\Lab8\model\obj\Debug\model.dll
+E:\TPP\Lab\Lab8\model\obj\Debug\model.pdb
+E:\TPP\Lab\Lab8\model\obj\Debug\model.csprojResolveAssemblyReference.cache

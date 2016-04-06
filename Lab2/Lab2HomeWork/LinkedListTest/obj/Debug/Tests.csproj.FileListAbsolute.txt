@@ -1,0 +1,14 @@
+C:\Users\davox\Desktop\Lab2HomeWork\LinkedListTest\bin\Debug\LinkedListTest.dll
+C:\Users\davox\Desktop\Lab2HomeWork\LinkedListTest\bin\Debug\LinkedListTest.pdb
+C:\Users\davox\Desktop\Lab2HomeWork\LinkedListTest\bin\Debug\Lab2HomeWork.exe
+C:\Users\davox\Desktop\Lab2HomeWork\LinkedListTest\bin\Debug\Lab2HomeWork.pdb
+C:\Users\davox\Desktop\Lab2HomeWork\LinkedListTest\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\davox\Desktop\Lab2HomeWork\LinkedListTest\obj\Debug\LinkedListTest.dll
+C:\Users\davox\Desktop\Lab2HomeWork\LinkedListTest\obj\Debug\LinkedListTest.pdb
+C:\Users\UO237464\Desktop\Lab2HomeWork\LinkedListTest\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\UO237464\Desktop\Lab2HomeWork\LinkedListTest\obj\Debug\LinkedListTest.dll
+C:\Users\UO237464\Desktop\Lab2HomeWork\LinkedListTest\obj\Debug\LinkedListTest.pdb
+C:\Users\UO237464\Desktop\Lab2HomeWork\LinkedListTest\bin\Debug\LinkedListTest.dll
+C:\Users\UO237464\Desktop\Lab2HomeWork\LinkedListTest\bin\Debug\LinkedListTest.pdb
+C:\Users\UO237464\Desktop\Lab2HomeWork\LinkedListTest\bin\Debug\Lab2HomeWork.exe
+C:\Users\UO237464\Desktop\Lab2HomeWork\LinkedListTest\bin\Debug\Lab2HomeWork.pdb

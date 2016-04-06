@@ -1,0 +1,4 @@
+E:\TPP\Lab\Lab6\memoization\bin\Debug\memoization.exe
+E:\TPP\Lab\Lab6\memoization\bin\Debug\memoization.pdb
+E:\TPP\Lab\Lab6\memoization\obj\x86\Debug\memoization.exe
+E:\TPP\Lab\Lab6\memoization\obj\x86\Debug\memoization.pdb

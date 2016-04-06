@@ -1,0 +1,5 @@
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\TestFunctional1\bin\Debug\TestFunctional1.exe.config
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\TestFunctional1\bin\Debug\TestFunctional1.exe
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\TestFunctional1\bin\Debug\TestFunctional1.pdb
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\TestFunctional1\obj\Debug\TestFunctional1.exe
+E:\TPP\Lab\Lab5\Functional1-Students - sample code\TestFunctional1\obj\Debug\TestFunctional1.pdb

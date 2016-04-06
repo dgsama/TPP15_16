@@ -1,0 +1,17 @@
+C:\Users\UO237464\Desktop\Lab04\Lab04\bin\Debug\Lab04.exe.config
+C:\Users\UO237464\Desktop\Lab04\Lab04\bin\Debug\Lab04.exe
+C:\Users\UO237464\Desktop\Lab04\Lab04\bin\Debug\Lab04.pdb
+C:\Users\UO237464\Desktop\Lab04\Lab04\obj\Debug\Lab04.exe
+C:\Users\UO237464\Desktop\Lab04\Lab04\obj\Debug\Lab04.pdb
+D:\Temp\Lab04\Lab04\bin\Debug\Lab04.exe.config
+D:\Temp\Lab04\Lab04\obj\Debug\Lab04.exe
+D:\Temp\Lab04\Lab04\obj\Debug\Lab04.pdb
+D:\Temp\Lab04\Lab04\bin\Debug\Lab04.exe
+D:\Temp\Lab04\Lab04\bin\Debug\Lab04.pdb
+D:\Temp\Lab04\Lab04\obj\Debug\Lab04.csprojResolveAssemblyReference.cache
+E:\TPP\Lab\Lab4\Lab04\Lab04\bin\Debug\Lab04.exe.config
+E:\TPP\Lab\Lab4\Lab04\Lab04\obj\Debug\Lab04.exe
+E:\TPP\Lab\Lab4\Lab04\Lab04\obj\Debug\Lab04.pdb
+D:\TPP\Lab\Lab4\Lab04\Lab04\bin\Debug\Lab04.exe.config
+D:\TPP\Lab\Lab4\Lab04\Lab04\obj\Debug\Lab04.exe
+D:\TPP\Lab\Lab4\Lab04\Lab04\obj\Debug\Lab04.pdb
