@@ -8,7 +8,7 @@ namespace list
 {
     public static class Extensions
     {
-        //MAPS
+        //MAPS == SELECT
         public static IEnumerable<TResult> Map<TElement, TResult>(this IEnumerable<TElement> collection,
             Func<TElement, TResult> function)
         {
@@ -46,7 +46,7 @@ namespace list
         }
 
 
-        //FILTER
+        //FILTER == WHERE
         public static IEnumerable<T> Filter<T>(this IEnumerable<T> a, Predicate<T> f)
         {
             List<T> ret = new List<T>();
@@ -60,7 +60,7 @@ namespace list
             return ret;
         }
 
-        //FIND
+        //FIND == FIRST
         public static T Find<T>(this IEnumerable<T> a, Predicate<T> f)
         {
             foreach (T t in a)
@@ -99,7 +99,7 @@ namespace list
             Console.WriteLine();
         }
 
-        //REDUCE 
+        //REDUCE == AGGREGATE
         static TResult Reduce<TParam, TResult>(this
  IEnumerable<TParam> c, Func<TResult, TParam, TResult> function, TResult seed = default(TResult))
         {
