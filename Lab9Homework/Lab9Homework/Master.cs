@@ -5,11 +5,11 @@ namespace TPP.Laboratory.Concurrency.Lab09 {
 
     public class Master {
 
-        private short[] vector;
+        private char[] vector;
 
         private int numberOfThreads;
 
-        public Master(short[] vector, int numberOfThreads) {
+        public Master(char[] vector, int numberOfThreads) {
             if (numberOfThreads < 1 || numberOfThreads > vector.Length)
                 throw new ArgumentException("The number of threads must be lower or equal to the number of elements in the vector.");
             this.vector = vector;

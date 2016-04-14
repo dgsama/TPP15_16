@@ -3,7 +3,7 @@ namespace TPP.Laboratory.Concurrency.Lab09 {
 
     internal class Worker {
 
-        private short[] vector;
+        private char[] vector;
 
         private int fromIndex, toIndex;
 
@@ -13,7 +13,7 @@ namespace TPP.Laboratory.Concurrency.Lab09 {
             get { return this.result; }
         }
 
-        internal Worker(short[] vector, int fromIndex, int toIndex) {
+        internal Worker(char[] vector, int fromIndex, int toIndex) {
             this.vector = vector;
             this.fromIndex = fromIndex;
             this.toIndex = toIndex;
