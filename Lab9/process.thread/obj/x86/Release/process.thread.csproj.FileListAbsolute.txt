@@ -1,0 +1,5 @@
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\concurrency\lab09\students\process.thread\bin\Release\process.thread.exe
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\concurrency\lab09\students\process.thread\bin\Release\process.thread.pdb
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\concurrency\lab09\students\process.thread\obj\x86\Release\process.thread.exe
+C:\Users\Ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\concurrency\lab09\students\process.thread\obj\x86\Release\process.thread.pdb
+C:\Users\ortin\Documents\Dropbox\Asignaturas\Paradigmas\ingles\laboratory\concurrency\lab09\students\process.thread\obj\x86\Release\process.thread.csprojResolveAssemblyReference.cache
