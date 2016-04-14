@@ -7,3 +7,8 @@ C:\Users\Redondo\Dropbox\Asignaturas\TPP\2015\Concurrencia - Practica 1\lab09sam
 C:\Users\Redondo\Dropbox\Asignaturas\TPP\2015\Concurrencia - Practica 1\lab09samplecode\process.thread\obj\x86\Debug\process.thread.pdb
 C:\Users\Redondo\Dropbox\Asignaturas\TPP\2015\Concurrencia - Practica 1\lab09samplecode\process.thread\bin\Debug\process.thread.exe
 C:\Users\Redondo\Dropbox\Asignaturas\TPP\2015\Concurrencia - Practica 1\lab09samplecode\process.thread\bin\Debug\process.thread.pdb
+C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\obj\x86\Debug\process.thread.exe
+C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\obj\x86\Debug\process.thread.pdb
+C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\bin\Debug\process.thread.exe
+C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\bin\Debug\process.thread.pdb
+C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\obj\x86\Debug\process.thread.csprojResolveAssemblyReference.cache
