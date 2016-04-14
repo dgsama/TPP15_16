@@ -33,6 +33,11 @@ namespace TPP.Laboratory.Concurrency.Lab09 {
                 threads[i].Start();  
             }
 
+            //To obtain the same result with differents threads
+            foreach (var t in threads) {
+                t.Join();
+            }
+
             long result = 0;
             foreach (Worker worker in workers) {
                 result += worker.Result;
