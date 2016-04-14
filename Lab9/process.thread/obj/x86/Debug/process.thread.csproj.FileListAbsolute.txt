@@ -11,4 +11,3 @@ C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\obj\x86\Debug\process.
 C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\obj\x86\Debug\process.thread.pdb
 C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\bin\Debug\process.thread.exe
 C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\bin\Debug\process.thread.pdb
-C:\Users\UO237464\Desktop\df\TPP15_16\Lab9\process.thread\obj\x86\Debug\process.thread.csprojResolveAssemblyReference.cache

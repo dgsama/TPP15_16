@@ -6,8 +6,8 @@ namespace TPP.Laboratory.Concurrency.Lab09 {
     class Program {
 
         static void Main(string[] args) {
-            const int maxNumberOfThreads = 50;
-            short[] vector = VectorModulusProgram.CreateRandomVector(100000, -10, 10);
+            const int maxNumberOfThreads = 150;
+            short[] vector = VectorModulusProgram.CreateRandomVector(100000000, -10, 10);
             ShowLine(Console.Out, "Number of threads", "Ticks", "Result");
             for (int numberOfThreads = 1; numberOfThreads <= maxNumberOfThreads; numberOfThreads++) {
                 Master master = new Master(vector, numberOfThreads);
