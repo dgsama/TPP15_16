@@ -33,11 +33,12 @@ namespace TPP.Laboratory.Concurrency.Lab09
             long counter = 0;
             int last = 0;
 
-            if ((toIndex + (genA.Length - 1)) >= vector.Length - 1)
+            if ((toIndex + (genA.Length - 1)) < vector.Length - 1)
             {
-                last = toIndex;
+                last = last = (toIndex + (genA.Length - 1)); ;
             }
-            else { last = (toIndex + (genA.Length - 1)); }
+            else { last = toIndex; }
+
 
             for (int i = fromIndex; i < last; i++)
             {
@@ -45,7 +46,7 @@ namespace TPP.Laboratory.Concurrency.Lab09
                 if (genA[0] == vector[i])
                 {
                     int k = 0;
-                    for (int j = i; j < i + genA.Length - 1; i++)
+                    for (int j = i; j < i + genA.Length-1; i++)
                     {
                         if (genA[k] == vector[j])
                         {
