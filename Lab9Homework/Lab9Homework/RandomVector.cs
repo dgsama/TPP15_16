@@ -10,8 +10,9 @@ namespace Lab9Homework
     {
         
         char [] letters = {'A', 'T', 'C', 'G'};
+
         Random random;
-        char[] vector { public get; set; }
+        public char[] vector { get; set; }
 
         public RandomVector(int size){
             vector = new char[size];

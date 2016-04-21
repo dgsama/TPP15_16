@@ -16,14 +16,14 @@ namespace TPP.Laboratory.Concurrency.Lab09 {
             this.numberOfThreads = numberOfThreads;
         }
 
-        public double ComputeModulus() {
+        public double ComputeModulus(string gen) {
             Worker[] workers = new Worker[this.numberOfThreads];
             int itemsPerThread = this.vector.Length/numberOfThreads;
             for(int i=0; i < this.numberOfThreads; i++)
                 workers[i] = new Worker(this.vector, 
-                    i*itemsPerThread, 
-                    (i<this.numberOfThreads-1) ? (i+1)*itemsPerThread-1: this.vector.Length-1 // last one
-                    );
+                    i*itemsPerThread,
+                    (i < this.numberOfThreads - 1) ? (i + 1) * itemsPerThread - 1 : this.vector.Length - 1,// last one
+                    gen);
 
             Thread[] threads = new Thread[workers.Length];
             for(int i=0;i<workers.Length;i++) {
@@ -42,7 +42,7 @@ namespace TPP.Laboratory.Concurrency.Lab09 {
             foreach (Worker worker in workers) {
                 result += worker.Result;
             }
-            return Math.Sqrt(result);
+            return result;
         }
 
     }
