@@ -20,30 +20,40 @@ namespace TPP.Laboratory.Concurrency.Lab10
 
         public string AccountNumber { get { return this.accountNumber; } }
 
-        public bool Withdraw(decimal amount) {
+        public bool Withdraw(decimal amount)
+        {
             if (this.balance < amount)
                 return false;
             balance -= amount;
             return true;
         }
 
-        public void Deposit(decimal amount) {
+        public void Deposit(decimal amount)
+        {
             balance += amount;
         }
 
         public bool Transfer(BankAccount destinationAccount, decimal amount)
         {
-            lock (this) {
-                lock (destinationAccount) {
+            bool canWithdrawMoney = false;
+
+            lock (this)
+            {
+                canWithdrawMoney = this.Withdraw(amount);
+            }
+
+            lock (destinationAccount)
+            {
+                if (canWithdrawMoney)
+                {
                     Thread.Sleep(100); // Simulates processing...
-                    if (this.Withdraw(amount)) {
-                        destinationAccount.Deposit(amount);
-                        return true;
-                    }
-                    else
-                        return false;
+                    destinationAccount.Deposit(amount);
+                    return true;
                 }
             }
+            return false;
+
         }
     }
+
 }

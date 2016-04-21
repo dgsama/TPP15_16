@@ -31,7 +31,7 @@ namespace ConcurrentQueue
             {
                 if (!IsEmpty())
                 {
-                    innerList.removeByIndex(numberOfElements--);
+                    innerList.removeByIndex(0);
                     numberOfElements--;
                 }
             }
@@ -44,7 +44,7 @@ namespace ConcurrentQueue
             {
                 if (!IsEmpty())
                 {
-                    value = innerList.getByIndex(numberOfElements--);
+                    value = innerList.getByIndex(0);
                 }
             }
             return value;

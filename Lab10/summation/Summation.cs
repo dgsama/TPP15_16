@@ -3,7 +3,8 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Threading;
 
-namespace TPP.Laboratory.Concurrency.Lab10 {
+namespace TPP.Laboratory.Concurrency.Lab10
+{
 
     internal class Summation
     {
@@ -23,7 +24,18 @@ namespace TPP.Laboratory.Concurrency.Lab10 {
 
         protected virtual void DecrementValue()
         {
-            value = value - 1;
+            ///CHANGES ARE HERE
+            
+            /*
+             *It works but is slow 
+            lock (this)
+            {
+                value = value - 1;
+            }*/
+
+            //Interlocked.Decrement(ref value);
+
+            Interlocked.Add(ref value, -1);
         }
 
         internal void Compute()

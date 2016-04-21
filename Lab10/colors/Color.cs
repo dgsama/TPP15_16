@@ -13,12 +13,16 @@ namespace TPP.Laboratory.Concurrency.Lab10
             this.color = color;
         }
 
-        virtual public void Show() {
-            lock(Console.Out){
-            ConsoleColor previousColor = Console.ForegroundColor;
-            Console.ForegroundColor = this.color;
-            Console.Write("{0}\t", this.color);
-            Console.ForegroundColor = previousColor;}
+        virtual public void Show()
+        {
+            ///CHANGES ARE HERE
+            lock (Console.Out)
+            {
+                ConsoleColor previousColor = Console.ForegroundColor;
+                Console.ForegroundColor = this.color;
+                Console.Write("{0}\t", this.color);
+                Console.ForegroundColor = previousColor;
+            }
         }
 
     }

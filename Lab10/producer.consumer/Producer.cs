@@ -5,28 +5,35 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace TPP.Laboratory.Concurrency.Lab10 {
+namespace TPP.Laboratory.Concurrency.Lab10
+{
 
-    class Producer {
+    class Producer
+    {
 
         private Queue<Product> queue;
         private int numberOfProductsProduced;
 
 
-        public void Run() {
+        public void Run()
+        {
             Random random = new Random();
-            while (true) {
+            while (true)
+            {
                 Product product = new Product(++numberOfProductsProduced);
                 Console.WriteLine("+ Enqueuing {0}...", product);
-                lock(queue)
+                lock (queue)
+                {
                     queue.Enqueue(product);
+                }
                 Console.WriteLine("+ {0} enqueued.", product);
                 Thread.Sleep(random.Next(500, 1000));
             }
         }
 
 
-        public Producer(Queue<Product> queue) {
+        public Producer(Queue<Product> queue)
+        {
             this.queue = queue;
         }
     }
