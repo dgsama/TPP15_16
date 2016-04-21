@@ -11,9 +11,11 @@ namespace ConcurrentQueue
         public int numberOfElements { get; set; }
         private MyLinkedList<T> innerList = new MyLinkedList<T>();
 
-        public bool IsEmpty() {
+        public bool IsEmpty()
+        {
             return (numberOfElements == 0);
         }
+
         public void Enqueue(T elem)
         {
             lock (innerList)
@@ -27,17 +29,25 @@ namespace ConcurrentQueue
         {
             lock (innerList)
             {
-                innerList.removeByIndex(numberOfElements--);
-                numberOfElements--;
+                if (!IsEmpty())
+                {
+                    innerList.removeByIndex(numberOfElements--);
+                    numberOfElements--;
+                }
             }
         }
 
-        public void Peek()
+        public T Peek()
         {
+            T value = default(T);
             lock (innerList)
             {
-                innerList.getByIndex(numberOfElements--);
+                if (!IsEmpty())
+                {
+                    value = innerList.getByIndex(numberOfElements--);
+                }
             }
+            return value;
         }
 
 
