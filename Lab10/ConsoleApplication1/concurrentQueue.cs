@@ -13,7 +13,10 @@ namespace ConcurrentQueue
 
         public bool IsEmpty()
         {
-            return (numberOfElements == 0);
+            lock (innerList)
+            {
+                return (numberOfElements == 0);
+            }
         }
 
         public void Enqueue(T elem)

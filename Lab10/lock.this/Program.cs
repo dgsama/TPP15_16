@@ -12,9 +12,10 @@ namespace LockThis
      */
     class LockThis
     {
+        private List<int> locker = new List<int>();
         public void ThreadSafeOperation()
         {
-            lock (this)
+            lock (locker)//Puedes usar esto creandolo arriba o this(mejor esto)
             {
                 Console.WriteLine("Secondary thread starts");
                 while (true)
