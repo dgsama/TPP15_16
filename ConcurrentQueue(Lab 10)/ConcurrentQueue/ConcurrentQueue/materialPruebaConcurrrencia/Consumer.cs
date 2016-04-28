@@ -31,7 +31,7 @@ namespace TPP.Laboratory.Concurrency.Lab10
                 {
 
                     //Antes habia un while en vez del if, se añadio el if y el else.
-                    if (queue.numberOfElements == 0)
+                    if (queue.IsEmpty())
                     {
 
                         Thread.Sleep(20);

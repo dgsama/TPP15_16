@@ -16,11 +16,31 @@ namespace ConcurrentQueue
             numberOfElements = 0;
         }
 
+        public int Count() {
+            lock (innerList)
+            {
+                return numberOfElements;
+            }
+        }
+
+        public void IncreaseSize() {
+            lock (innerList) {
+                numberOfElements++;
+            }
+        }
+
+        public void DecreaseSize() {
+            lock (innerList)
+            {
+                numberOfElements--;
+            }
+        }
+
         public bool IsEmpty()
         {
             lock (innerList)
             {
-                return (numberOfElements == 0);
+                return (Count() == 0);
             }
         }
 
@@ -29,7 +49,7 @@ namespace ConcurrentQueue
             lock (innerList)
             {
                 innerList.add(elem);
-                numberOfElements++;
+                IncreaseSize();
             }
         }
 
@@ -43,7 +63,7 @@ namespace ConcurrentQueue
                 {
                     value = innerList.getByIndex(0);
                     innerList.removeByIndex(0);
-                    numberOfElements--;
+                    DecreaseSize();
                 }
                 return value;
             }
