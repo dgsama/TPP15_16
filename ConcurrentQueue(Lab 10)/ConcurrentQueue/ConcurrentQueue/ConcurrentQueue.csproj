@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="concurrentQueue.cs" />
+    <Compile Include="materialPruebaConcurrrencia\Consumer.cs" />
+    <Compile Include="materialPruebaConcurrrencia\Producer.cs" />
+    <Compile Include="materialPruebaConcurrrencia\Product.cs" />
+    <Compile Include="MyLinkedList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
