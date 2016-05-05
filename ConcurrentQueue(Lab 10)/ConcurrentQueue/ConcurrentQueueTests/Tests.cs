@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using ConcurrentQueue;
+using System.Threading;
+using System.Collections.Generic;
 
 namespace ConcurrentQueueTests
 {
@@ -145,6 +147,79 @@ namespace ConcurrentQueueTests
             Assert.AreEqual(1, words.numberOfElements);
 
         }
+        [TestMethod]
+        public void Test()
+        {
+            List<Thread> threads = new List<Thread>();
+
+            for (int i = 0; i < 5; i++)
+            {
+                threads.Add(new Thread(() =>
+                {
+                    numbers.Enqueue(i);
+                    words.Enqueue("WOLOLO");
+                }
+                ));
+            }
+
+            foreach (Thread t in threads)
+                t.Start();
+
+            foreach (Thread t in threads)
+                t.Join();
+
+            Assert.AreEqual(7, numbers.Count());
+            Assert.AreEqual(7, words.Count());
+
+
+            threads.Clear();
+
+            for (int i = 0; i < 5; i++)
+            {
+                threads.Add(new Thread(() =>
+                {
+                    numbers.Dequeue();
+                    words.Dequeue();
+                }
+                ));
+            }
+
+            foreach (Thread t in threads)
+                t.Start();
+
+            foreach (Thread t in threads)
+                t.Join();
+
+            Assert.AreEqual(2, numbers.Count());
+            Assert.AreEqual(2, words.Count());
+
+            threads.Clear();
+
+            for (int i = 0; i < 5; i++)
+            {
+                threads.Add(new Thread(() =>
+                {
+                    numbers.Enqueue(i);
+                    numbers.Dequeue();
+
+                    words.Enqueue("WOLOLO");
+                    words.Dequeue();
+                }
+                ));
+            }
+
+            foreach (Thread t in threads)
+                t.Start();
+
+            foreach (Thread t in threads)
+                t.Join();
+
+            Assert.AreEqual(2, numbers.Count());
+            Assert.AreEqual(2, words.Count());
+
+
+
+        }
+
     }
 }
-
