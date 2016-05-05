@@ -22,17 +22,17 @@ namespace Lab9Homework
             string gen = Console.ReadLine().ToUpper();
 
 
-            Master master = new Master(v, 1);
+            Master master = new Master(v, 1, gen);
             DateTime before = DateTime.Now;
-            double result = master.ComputeModulus(gen);
+            double result = master.ComputeModulus();
             DateTime after = DateTime.Now;
             Console.WriteLine("Result with one thread: {0:N2}.", result);
             Console.WriteLine("Elapsed time: {0:N0} ticks.",
                 (after - before).Ticks);
 
-            master = new Master(v, 4);
+            master = new Master(v, 4, gen);
             before = DateTime.Now;
-            result = master.ComputeModulus(gen);
+            result = master.ComputeModulus();
             after = DateTime.Now;
             Console.WriteLine("Result with 4 threads: {0:N2}.", result);
             Console.WriteLine("Elapsed time: {0:N0} ticks.",
